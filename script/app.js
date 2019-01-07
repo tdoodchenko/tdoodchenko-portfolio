@@ -36,14 +36,17 @@ dropdown.hide();
 $("#menu-icon").click(function(){
     console.log("this is clicked")
 
-     dropdown.toggle(500); 
+     dropdown.toggle(300); 
 
 
 });
 
 
+// name text animation
 
+$("#slide").fadeIn(2000);
 
+// contact me form
 
 
 

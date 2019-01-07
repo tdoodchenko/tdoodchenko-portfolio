@@ -30,15 +30,13 @@
     </div>
     <!-- test -->
     <div class="row">
-        <div class="col-lg-6">
             <div id="icon_container">
-                <img src="assets/images/367594-128.png" id="c1" style="width:40px;height:auto;">
-
-
+                <a href="https://www.linkedin.com/in/taylordoodchenko/"><img src="assets/images/367594-128.png" id="c1" style="width:40px;height:auto;">
+                </a>
+                <a href="https://github.com/tdoodchenko">
                 <img src="assets/images/298822-128.png" id="c2" style="width:40px;height:auto;">
+                </a>
             </div>
-        </div>
-        <div class="col-lg-6">
 
             <div id="dropdown">
                 <img src="./assets/images/menu.png" style="width:40px;height:auto;" id="menu-icon" class="icon-dashboard">
@@ -48,7 +46,6 @@
                     <li><a href="#js-section3" id="js-btn3">Contact</a> </li>
                 </ul>
             </div>
-        </div>
 
 
     </div>
@@ -72,7 +69,7 @@
 
 
 <!-- name and title text in middle of screen -->
-<div class="hero-text">
+<div class="hero-text" id="slide" style="display:none;">
     <div id="name-font">Taylor Doodchenko</div>
     <p>Digital Marketer & Full Stack Web Developer</p>
 
@@ -131,6 +128,32 @@
             <div class="row" id="headline">Portfolio</div>
             <div class="row" id="card-container">
                 <div class="col-lg-2">
+<!-- xx -->
+<div class="lightbox-image " data-component-name="lightbox-image" data-component-id="17">
+        <a href="http://www.amysherald.com/" data-site-preview="true">
+          
+            <div class="lightbox-image__image-container is-loaded" style="background-image: url(&quot;https://static1.squarespace.com/static/ta/5134cbefe4b0c6fb04df8065/9701/assets/images/pages/vertical/artists/customers/amy-sherald-750w.jpg?14497943a8eb03fa9e628cf1fc320677&quot;);">
+              <img data-load="false" data-use-bg-image="true" data-size-format="filename" data-image-dimensions="100x63" data-src="https://static1.squarespace.com/static/ta/5134cbefe4b0c6fb04df8065/9701/assets/images/pages/vertical/artists/customers/amy-sherald.jpg?14497943a8eb03fa9e628cf1fc320677" class="" data-image-resolution="750w" style="display: none;">
+      
+              <div class="lightbox-image__image-container__rollover">
+                <button>View Customer</button>
+              </div>
+            </div>
+          
+        </a>
+      
+        <a href="http://www.amysherald.com/" data-site-preview="true">
+          <p class="lightbox-image__caption ">Amy Sherald</p>
+        </a>
+      </div>
+
+      <!-- xx -->
+
+
+
+
+
+
                     <div class="card blue-grey darken-1">
                         <div class="card-content white-text">
                             <img class="web-prev" src="./assets/images/digital-marketing-1725340_640.jpg">
@@ -140,6 +163,11 @@
                             <a href="#">This is a link</a>
                             <a href="#">This is a link</a>
                         </div>
+                    <!-- xx -->
+
+
+
+                    <!-- xx -->
                     </div>
                 </div>
             </div>
@@ -159,7 +187,15 @@
                        EMAIL: TLDOODCHENKO@GMAIL.COM </P>
 
                     </div>
+                    <!-- form column -->
+                   <form class="contact-form" action="/script/handler.php" method="POST">
+                       <input type="text" name="name" placeholder="Your name">
+                       <input type="text" name="mail" placeholder="Your e-mail">
+                       <input type="text" name="subject" placeholder="Subject">
+                       <textarea name="message" placeholder="Message"></textarea>
+                       <button type="submit" name="submit">Send Mail</button>
 
+                   </form>
 
 
         </div>
